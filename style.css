@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+  font-family: BatmanForeverAlternate;
+  src: url("./fonts/batmfa.ttf");
+}
+
+@font-face {
+  font-family: adineue PRO;
+  src: url("./fonts/adineue\ PRO.ttf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 a{
+  font-family: 'BatmanForeverAlternate';
+  margin-bottom: 2em;
+}
+#one{
+  margin-left: 140px;
+}
+#two{
+  width: 200px;
+}
+#three{
+  margin-right: 140px;
+}
+.line{
+
+  background-color: #2E0F46;
+  height: 8px;
+  width: 100px;
+  z-index: -1;
+
+margin-top: 60px;
+margin-bottom: -26px;
+}
+ header{
+  position: relative;
+  text-align: center;
+}
+
+header h2{
+  font-family: 'BatmanForeverAlternate';
+  font-size: 60px;
+  color:#2E0F46;
+}
+
+h3{
+  padding-left: 100px;
+  font-family: 'adineue PRO';
+  color:#2E0F46;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+li {
+  list-style-type: none;
+  font-size:12px;
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+header ul li div.contagem1{
+  font-family: 'BatmanForeverAlternate';
+  font-size: 40px;
+  min-width: 50px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #2E0F46;
+  border-radius: 3px;
+
+}
+header ul li div.contagem2{
+  font-family: 'BatmanForeverAlternate';
+  font-size: 40px;
+  min-width: 50px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #2E0F46;
+  border-radius: 3px
+}
+header ul li div.contagem3{
+  font-family: 'BatmanForeverAlternate';
+  font-size: 40px;
+  min-width: 50px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #2E0F46;
+  border-radius: 3px
+  
+
+}
+header ul li{
+  font-size: 15px;
+
+
+
+}
+
+.Cadastro{
+  margin-left: auto;
+  margin-right: auto; 
+  max-width: 40%;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 3px solid #2E0F46;
+  border-radius: 4px
+
+}
+
+
+.Nome{
+  text-align: center;
+}
+.Nome input{
+  background: #fff;
+  border: 2px solid #2E0F46;
+  border-radius: 4px;
+  color: #424242;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 0px 10px 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.Cpf input{
+  background: #fff;
+  border: 2px solid #2E0F46;
+  border-radius: 4px;
+  color: #2E0F46;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 80px 10px 80px;
+  width: 40%;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+
+}
+.Nasc input{
+  background: #fff;
+  border: 2px solid #2E0F46;
+  border-radius: 4px;
+  color: #424242;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 80px 10px 80px;
+  width: 40%;
+  margin-left: 100px;
+  margin-bottom: 6px; 
+  margin-top: 6px;
+
+}
+
+
+.Sex{
+  margin: 6px 0px 20px 0px;
+  text-align: center;
+  margin-bottom: 6px; 
+  margin-top: 6px;
+}
+button{
+  
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'adineue PRO';
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  border-color: #2E0F46;
+  cursor: pointer;
+
+
+}
+/* "PASSO 1 PARA CRIAR SUA CONTA"*/
+h1{
+  font-size: 15px;
+  font-family: 'adineue', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  color:#2E0F46;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+Div h2{
+  font-size: 18px;
+  text-align: left;
+  padding-left: 60px;
+}
+
+/*"Próximo"*/
+
+.button{
+  cursor: pointer;
+  font-family: 'BatmanForeverAlternate';
+  background-color: #2E0F46;
+  border: none;
+  color: white;
+  padding: 20px 120px 20px 120px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 16%;
+}
+
+
+/* "Já tem uma conta? Fazer login" */
+
+h4{
+  color: #2E0F46;
+  margin:20px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: lighter;
+}
