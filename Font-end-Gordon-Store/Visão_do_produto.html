@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./Visão_do_produto.css">
+</head>
+<body>
+    <header>
+      <section>
+        <section id="logo-header">
+          <h1><a href="#"><img src="./image/logo.svg" alt="logo-gordon-store" id="logo"></a></h1>
+        </section>
+  
+        <section id="links-header">
+          <nav>
+            <ul>
+              <li><a href="#">JOGOS</a></li>
+              <li><a href="#">HQS</a></li>
+              <li><a href="#">ESTUDIOS</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section id="lista-itens-header">
+          <nav>
+            <ul>
+              <li><a href="javascript:abrir('PopUpSearch')"><img src="./image/search.svg" alt="pesquisar" class="itens-header1"></a></li>
+              <li><a href="javascript:abrir('PopUpCart')"><img src="./image/cart.svg" alt="carrinho" class="itens-header"></a></li>
+              <li><a href="javascript:abrir('PopUpUsuario')"><img src="./image/profile.svg" alt="perfil" class="itens-header"></a></li>
+              <li><a href="javascript:abrir('PopUpUsuario')"><img src="./image/arrow.svg" alt="seta" class="itens-header2"></a></li>
+            </ul>
+          </nav>
+        </section>
+      </section>
+      <div id="PopUpUsuario">
+        <ul>
+          <li><a href="#"><img src="./image/SignIn.png" alt="">ENTRAR</a></li>
+          <li><a href="#"><img src="./image/UserCirclePlus.png" alt="">CRIAR CONTA</a></li>
+          <li><a href="#"><img src="./image/Question.png" alt="">AJUDA</a></li>
+        </ul>
+      </div>
+      <div id="PopUpSearch">
+        <form>
+          <input type="text" method="get" placeholder="O que está procurando?">
+          <button type="submit">
+            <img src="./image/search-purple.png" alt="lupa">
+          </button>
+        </form>
+      </div>
+  
+      <div id="PopUpCart">
+        <div id="header-cart">
+          <a href="javascript:abrir('PopUpCart')">
+            <img src="./image/back-white.png" alt="" id="cartback">
+          </a>
+          <h3>Minha cesta</h3>
+          <div id="cart-img">
+            <img src="./image/cart.svg" alt="">
+            <div  id="cart-indicator">
+              <div>
+                <p>1</p>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+    </header>
+    <nav>
+        <h6 href="#"><img src="Icon2.svg">VOLTAR PARA LISTA</h6>
+        <h6 >Produtos/Histórias em quadrinhos/Marvel/ Homem-aranha</h6>        
+    </nav>
+    <section>
+        <div id="body-cart">
+            <div class="container-product-cart">
+              <div>
+                <img src="./image/hq-miranha.png" alt="">
+              </div>
+              <div class="content-cart">
+                <h3>HQ O ESPETACULAR HOMEM ARANHA DE VOLTA AO LAR</h3>
+                <div class="internal-content1">
+                  <div class="itens-cart">
+                    <p>R$ 89,90</p>
+                    <p> 5x de 18.6</p>
+                    <a href="#" class="Optios">Ver mais opções</a>
+                  </div>
+                  <div class="itens-cart">
+                    <p>CALCULAR FRETE E PRAZO </p>
+                    <form id="Box"><img src="MapPin.svg">
+                        <div class="Cep"> 
+                            <input type="text" name="cep" size="11" maxlength="09" value="CIDADE - 00000-000"> 
+                        </div>
+                    </form>
+                    <img src="Wind.svg"><img src="Truck.svg">
+                        <div class="Cep"> 
+                            <input type="text" name="cep" size="11" maxlength="09" value="CIDADE - 00000-000"> 
+                        </div>
+                  </div>
+                </div>
+                <div id="footer-cart">
+                    <a href="">Finalizar pedido</a>
+                </div>
+            </div>
+            </div>
+          </div>
+
+        </div>  
+    </section>
+    <section class="lista">
+        <h2 class="titulosection">
+          EM DESTAQUE
+        </h2>
+        <div class="listadeprodutos">
+          <div class="containerproduto">
+            <div class="conteudocontainer">
+    
+              <div class="containerexterno">
+                <a href="#"><img src="./image/Heart.png" alt="coração" class="iconfavorito"></a>
+                <img class="imagemcontainer" src="./image/produto.svg" alt="imagem do produto">
+                <p class="precoproduto">Preço</p>
+              </div>
+              <h5 class="tipoproduto">Tipo da capa</h5>
+              <p class="tituloproduto">Título da HQ</p>
+              <div class="productbottom">
+                <a href="#"><img src="./image/cartproduct.svg" alt="cart"></a>
+              </div>
+            </div>
+          </div>
+          <div class="containerproduto">
+            <div class="conteudocontainer">
+    
+              <div class="containerexterno">
+                <a href="#"><img src="./image/Heart.png" alt="coração" class="iconfavorito"></a>
+                <img class="imagemcontainer" src="./image/produto.svg" alt="imagem do produto">
+                <p class="precoproduto">Preço</p>
+              </div>
+              <h5 class="tipoproduto">Tipo da capa</h5>
+              <p class="tituloproduto">Título da HQ</p>
+              <div class="productbottom">
+                <a href="#"><img src="./image/cartproduct.svg" alt="cart"></a>
+              </div>
+            </div>
+          </div>
+          <div class="containerproduto">
+            <div class="conteudocontainer">
+    
+              <div class="containerexterno">
+                <a href="#"><img src="./image/Heart.png" alt="coração" class="iconfavorito"></a>
+                <img class="imagemcontainer" src="./image/produto.svg" alt="imagem do produto">
+                <p class="precoproduto">Preço</p>
+              </div>
+              <h5 class="tipoproduto">Tipo da capa</h5>
+              <p class="tituloproduto">Título da HQ</p>
+              <div class="productbottom">
+                <a href="#"><img src="./image/cartproduct.svg" alt="cart"></a>
+              </div>
+            </div>
+          </div>
+          <div class="containerproduto">
+            <div class="conteudocontainer">
+    
+              <div class="containerexterno">
+                <a href="#"><img src="./image/Heart.png" alt="coração" class="iconfavorito"></a>
+                <img class="imagemcontainer" src="./image/produto.svg" alt="imagem do produto">
+                <p class="precoproduto">Preço</p>
+              </div>
+              <h5 class="tipoproduto">Tipo da capa</h5>
+              <p class="tituloproduto">Título da HQ</p>
+              <div class="productbottom">
+                <a href="#"><img src="./image/cartproduct.svg" alt="cart"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="conteudofooter">
+          <figure>
+            <img src="./image/logo.svg" alt="">
+          </figure>
+          <section>
+            <h5>Institucional</h5>
+            <ul>
+              <li><p>Quem somos</p></li>
+              <li><p>Contato</p></li>
+              <li><p>Equipe</p></li>
+            </ul>
+          </section>
+          <section>
+            <h5>Suporte</h5>
+            <ul>
+              <li><p>Fale conosco</p></li>
+              <li><p>Dúvidas frequentes</p></li>
+              <li><p>Política de privacidade</p></li>
+            </ul>
+          </section>
+          <section>
+            <h5>Siga-nos</h5>
+            <ul id="redessociais">
+              <li><img src="./image/insta.svg" alt=""></li>
+              <li><img src="./image/face.svg" alt=""></li>
+              <li><img src="./image/link.svg" alt=""></li>
+              <li><img src="./image/youtube.svg" alt=""></li>
+              <li><img src="./image/twitter.svg" alt=""></li>
+            </ul>
+          </section>
+          <section id="formaspagamento">
+            <h5>Formas de pagamento</h5>
+            <ul>
+              <li><img src="./image/credito.svg" alt=""><p>Credito</p></li>
+              <li><img src="./image/debito.svg" alt=""><p>Debito</p></li>
+              <li><img src="./image/boleto.svg" alt=""><p>Boleto</p></li>
+            </ul>
+          </section>
+        </div>
+      </footer>
+    </body>
+</body>
+
+<script src="./index.js"></script>
+</html>
